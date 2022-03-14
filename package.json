@@ -1,7 +1,7 @@
 {
   "name": "spotify-node-clone",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server/index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -24,5 +24,9 @@
   "description": "",
   "devDependencies": {
     "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "pino": "^7.8.0",
+    "pino-pretty": "^7.5.3"
   }
 }
