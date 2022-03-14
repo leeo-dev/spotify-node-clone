@@ -1,0 +1,6 @@
+Service = Tudo que é regra de negócio e processamento
+Controller = Intermediar a camada de apresentação e a camada de negócio
+Routes = Camada de apresentação
+Server = responsável por criar um servidor (mas não instância)
+index = instância o servidor e expõe para a web (lado da infraestrutura)
+config = tudo que for estático do projeto 

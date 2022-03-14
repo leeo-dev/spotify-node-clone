@@ -1,10 +1,14 @@
 {
   "name": "spotify-node-clone",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "engines": {
+    "node": "17"
   },
   "repository": {
     "type": "git",
@@ -16,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/leeo-dev/spotify-node-clone/issues"
   },
-  "homepage": "https://github.com/leeo-dev/spotify-node-clone#readme"
+  "homepage": "https://github.com/leeo-dev/spotify-node-clone#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
